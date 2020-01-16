@@ -1,0 +1,23 @@
+.Team{
+  text-align: left;
+  padding: 5%;
+}
+
+h2{
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.team-img{
+  width: 20px;
+}
+
+.table td, .table th{
+  border-top: 0!important;
+}
+
+@media (max-width: 640px) {
+  .Team{
+  font-size: 11px;
+}
+}

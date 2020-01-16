@@ -1,0 +1,39 @@
+.item-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 15%;
+  padding-right: 15%;
+  align-items: center;
+}
+
+.linetrue{
+  background-color: rgba(0,0,0,.05);
+}
+
+.homeTeam{
+  width: 15%;
+  text-align: left;
+}
+
+.awayTeam{
+  width: 15%;
+  text-align: right;
+}
+
+@media (max-width: 640px) {
+  .item-wrapper{
+  padding-left: 1%;
+  padding-right: 1%;
+  font-size: 11px;
+}
+.homeTeam{
+  width: 25%;
+  text-align: left;
+}
+
+.awayTeam{
+  width: 25%;
+  text-align: right;
+}
+}
